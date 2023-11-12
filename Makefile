@@ -1,5 +1,5 @@
 # Overridable variables
-INSTALLPATH ?= /usr/bin
+INSTALLPATH ?= $(HOME)/.local/bin
 SERVICEPATH ?= $(HOME)/.config/systemd/user
 CONFIGPATH ?= $(HOME)/.config/touchcursor
 
